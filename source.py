@@ -9,7 +9,7 @@ from discord.voice_client import VoiceClient
 from discord.ext import commands
 from discord.ext.commands import Bot
 
-TOKEN = 'Njg2MjMxMjM3MjQ0ODc4ODYw.XmUNfQ.A5SrB4G-N68Ls5p9iUDKv0juq4s'
+TOKEN = '%token%'
 
 targs = {}
 
