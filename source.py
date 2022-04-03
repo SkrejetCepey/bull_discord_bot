@@ -45,7 +45,7 @@ async def trg_bull(ctx, target):
                     global_bull = 1
                     return
                 counter = counter + 1
-                await ctx.send('Пошел нахуй, ' + "<@!" + str(x.id) + ">")
+                await ctx.send('Пошел ####, ' + "<@!" + str(x.id) + ">")
         if counter == 0:
             await ctx.send('Здесь нет такого, не обманывай!')
             global_bull = 1;
@@ -116,7 +116,7 @@ async def on_message(ctx):
     for x in ctx.guild.members:
         try:
             if str(ctx.author)[:-5] == targs[int(x.id)]:
-                await ctx.channel.send('Да пошел ты нахуй, черт')
+                await ctx.channel.send('Да пошел ты ####, черт')
         except:
             pass
 
